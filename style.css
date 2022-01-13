@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Lora:ital,wght@1,500;1,600&family=Meow+Script&family=Mochiy+Pop+P+One&family=Passion+One&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,500&family=Redacted+Script:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: #dabfffb7;
+    --cor2: #907AD6;
+    --cor3: #4F518C;
+    --cor4: #d6d5ce;
+    --cor5: #7FDEFF;
+    --cor6: black;
+
+
+    --fonte1: 'Mochiy Pop P One', sans-serif;
+
+
+}
+
+header{
+    background-color: var(--cor1);
+    padding: 25px;
+    font-family: var(--fonte1);
+    font-size: 25px;
+
+}
+
+ 
+
+header > nav > a{
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+main{
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+.container1{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-color: var(--cor4);
+    margin: 10px;);
+    background-size: cover;
+
+}
+
+.container1:hover{
+    transform: scale(1.01, 1.01);
+    transition: 0.3s;
+    
+
+}
+
+section > div > a {
+    position: absolute;
+    bottom: 0%;
+    background-color: var(--cor5);
+    text-decoration: none;
+    color: var(--cor6);
+    display: block;
+    text-align: center;
+    font-family: var(--fonte1);
+    padding: 10px;
+    width: 93.40%;
+    
+}
+
+
+footer{
+    background-color: var(--cor1);
+    padding: 20px;
+    text-align: center;
+    color: var(--cor3);
+    font-size: 15px;
+    font-family: var(--fonte1);
+
+
+}
+
+footer p > a{
+    color: var(--cor3);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: var(--fonte1);
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+ 
