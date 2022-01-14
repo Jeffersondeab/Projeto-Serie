@@ -112,3 +112,28 @@ footer a:hover{
 }
 
 
+
+@media(max-width: 915px){
+    .container1{
+        background-color: green;
+    }
+}
+
+
+
+
+@media (max-width: 450px){
+    
+    header{
+        width: auto;
+    }
+
+
+    .container2{
+        width: 400px;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
