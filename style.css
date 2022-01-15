@@ -50,6 +50,7 @@ main{
     background-color: var(--cor4);
     margin: 10px;);
     background-size: cover;
+    margin: auto;
 
 }
 

@@ -38,13 +38,17 @@ header a::after{
 }
 
 
+main{
+    margin: 20px;
+}
+
+
 section.container1 {
     width: 400px;
-    height: 300px;
-    margin: 20px;
-    margin-bottom: 0%;
+    height: 450px;
     background-color: var(--cor4);
-  
+    position: relative;
+    display: inline-block;
 }
 
 
@@ -52,12 +56,12 @@ section.container1 {
     padding: 10px;
     background-color: var(--cor4);
     width: 380px;
-    margin: 20px;
-    margin-top: 0%;
+    position: absolute;
+    bottom: 0%;
     font-family: var(--fonte1);
     font-size: 13px;
-    text-align: justify;
- 
+
+
 }
 
  
@@ -66,7 +70,8 @@ section.container2{
     background-color: var(--cor4);
     width: 700px;
     height: 450px;
-    margin: 10px;
+    display: inline-block;
+    margin-left: 30px;
  
 }
 
@@ -105,21 +110,27 @@ footer a:hover{
 @media (max-width: 450px){
     
     header{
-        width: 100%;
+        width: 700px;
+        margin: auto;
     }
+ 
 
     section.container1{
-        height: 100px;
+        display: contents;
  
     }
 
-    section > p {
-       
 
+    section > p {
+       width: 450px;
+       display: none;
+   
     }
 
     .container2{
-        width: 400px;
+        margin: auto;
+        margin-left: 0%;
+        
     }
 
     iframe{
@@ -127,6 +138,8 @@ footer a:hover{
     }
 
     footer{
-        width: 100%;
+        width: 700px;
+        margin: 40%;
+        margin: auto;
     }
 }
