@@ -34,8 +34,8 @@ header a{
     text-decoration: none;
 }
 
-header a::after{
-    color: var(--cor4);
+header a:active{
+    color: var(--cor3);
 }
 
 
