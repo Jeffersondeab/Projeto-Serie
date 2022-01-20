@@ -71,8 +71,6 @@ header a:active{
  
 }
 
- 
-
 
 .txt{
     padding: 10px;
@@ -112,9 +110,6 @@ footer a:hover{
 }
 
 
-
-
- 
 
 
 @media (max-width:920px){
@@ -169,25 +164,22 @@ footer a:hover{
 @media (max-width:450px){
 
 
-    header{
-        width: 110%;
-    }
 
     .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: 0px;
+        margin: 0%;
     
     }
 
     .container2{ 
-    width: 121.5%;
+    width: 97%;
     margin: 2px;
      position: relative;
     }
 
     .container3{
-        width: 250%;
+        width: 200%;
         height: 35vh;
         margin: 2px;
     }
@@ -207,7 +199,7 @@ footer a:hover{
    }
 
    footer{
-       width: 112%;
+        
    }
 }
 
