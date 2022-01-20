@@ -38,41 +38,28 @@ header a::after{
 }
 
 
-main{
-    margin: 20px;
-}
-
-
-section.container1 {
-    width: 400px;
-    height: 450px;
-    background-color: var(--cor4);
-    position: relative;
-    display: inline-block;
-}
-
-
- section p{
-    padding: 10px;
-    background-color: var(--cor4);
-    width: 380px;
-    position: absolute;
-    bottom: 0%;
-    font-family: var(--fonte1);
-    font-size: 13px;
-
-
-}
-
  
 
-section.container2{
-    background-color: var(--cor4);
-    width: 700px;
-    height: 450px;
-    display: inline-block;
-    margin-left: 30px;
- 
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     
+}
+
+
+.container2, .container3{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+.container2{
+    height: 70vh;
+    width: 60vh;
+}
+
+.container3{
+
 }
 
 
