@@ -26,7 +26,7 @@ header{
     padding: 25px;
     font-family: var(--fonte1);
     font-size: 25px;
-    width: 100%;
+
 
 }
 
@@ -67,15 +67,11 @@ header a::after{
 
 .container3{
     height: 70vh;
-    width: 100%;
+   
  
 }
 
-
-.container4{
-    visibility: hidden;
-}
-
+ 
 
 
 .txt{
@@ -100,10 +96,7 @@ footer{
     color: var(--cor3);
     font-size: 15px;
     font-family: var(--fonte1);
-    margin-top: 3%;
- 
-
-
+      
 }
 
 footer p > a{
@@ -120,27 +113,37 @@ footer a:hover{
 
 
 
-@media (max-width:870px){
+@media (max-width:700px){
  
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+
+
+    }
+
 
     .container3{
-        width: 65vh;
-        height: 50vh;
- 
+        width: 120vh;
+        height: 60vh;
+        align-items: center;
+         grid-row: 1/4;
     }
 
-    .container4{
-        visibility: visible;
-        width: 65vh;
-    }
 
     iframe{
-        width: 65vh;
-        height: 50vh;
+        width: 120vh;
+        height: 60vh;
         text-align: center;
     }
+
+
     .container2{
-    display: none;
+        background-image: none;
+         grid-column: 4/1;
+         height: 13vh;
+         width: 120vh;
     }
 
 }
@@ -157,10 +160,7 @@ footer a:hover{
         height: 40vh;
        text-align: center;
     }
-
-    footer{
-        width: 100%;
-    }
+ 
 }
 
 
