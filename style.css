@@ -66,7 +66,7 @@ main{
 #cx1{
     background-image: url(imagens/imgs/Dragon_Ball_Z.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: 100% 150%;
  
 }
 
