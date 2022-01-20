@@ -119,8 +119,8 @@ footer a:hover{
 
 @media (max-width:920px){
  
-    body{
-        background-color: chartreuse;
+    main.container{
+        margin: 20px;
     }
 
     .container{
